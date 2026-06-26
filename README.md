@@ -1,3 +1,3 @@
 # Mariner
 
-A cloud-based backend REST API on AWS.
+API for renting boats

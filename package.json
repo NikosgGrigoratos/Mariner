@@ -1,0 +1,33 @@
+{
+  "name": "mariner",
+  "version": "1.0.0",
+  "description": "API for renting boats",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc",
+    "synth": "cdk synth --profile mariner",
+    "deploy": "cdk deploy --profile mariner",
+    "diff": "cdk diff --profile mariner",
+    "destroy": "cdk destroy --profile mariner",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.162",
+    "@types/node": "^26.0.1",
+    "aws-cdk": "^2.1128.1",
+    "esbuild": "^0.28.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.260.0",
+    "constructs": "^10.6.0",
+    "hono": "^4.12.27"
+  }
+}
