@@ -5,6 +5,8 @@
     "exclude": ["node_modules", "cdk.out", "dist"]
   },
   "context": {
+    "alertEmail": "nikos.grigoratos@gmail.com",
+    "monthlyBudgetUsd": 5,
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/aws-iam:minimizePolicies": true,

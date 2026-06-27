@@ -9,9 +9,9 @@
   "scripts": {
     "typecheck": "tsc",
     "synth": "cdk synth --profile mariner",
-    "deploy": "cdk deploy --profile mariner",
+    "deploy": "cdk deploy --all --profile mariner",
     "diff": "cdk diff --profile mariner",
-    "destroy": "cdk destroy --profile mariner",
+    "destroy": "cdk destroy MarinerStack --profile mariner",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
